@@ -5,11 +5,13 @@
   "author": "Yuri-Ribeiro <barrosribeiroyuri@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "sucrase-node src/server.js",
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sucrase": "^3.16.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
