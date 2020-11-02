@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "pg": "^8.4.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
     "sucrase": "^3.16.0"
   },
   "devDependencies": {
@@ -20,6 +23,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.1.4",
     "nodemon": "^2.0.6",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "sequelize-cli": "^6.2.0"
   }
 }
