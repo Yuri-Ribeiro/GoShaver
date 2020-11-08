@@ -1,12 +1,12 @@
-const { connection } = require('./.env');
+const { connectionConfig } = require('./.env');
 
 module.exports = {
   dialect: 'postgres',
-  host: connection.host,
-  port: connection.port,
-  username: connection.username,
-  password: connection.password,
-  database: connection.database,
+  host: connectionConfig.host,
+  port: connectionConfig.port,
+  username: connectionConfig.username,
+  password: connectionConfig.password,
+  database: connectionConfig.database,
   define: {
     timestamps: true,
     underscored: true,
