@@ -16,7 +16,8 @@
     "pg": "^8.4.2",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.5",
-    "sucrase": "^3.16.0"
+    "sucrase": "^3.16.0",
+    "yup": "^0.29.3"
   },
   "devDependencies": {
     "eslint": "^7.12.1",
